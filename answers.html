@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML5 Elements and Forms</title>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Karibu! Welcome to My HTML5 Page</h1>
+    </header>
+
+    <!-- Ordered List with Roman Numerals -->
+    <section>
+        <h2>Important Steps</h2>
+        <ol type="I">
+            <li>Enroll in a coding bootcamp</li>
+            <li>Practice using HTML, CSS, and JS daily</li>
+            <li>Join developer communities like PLP or GDSC</li>
+        </ol>
+    </section>
+
+    <!-- External Image from Pexels -->
+    <section>
+        <h2>Image Example</h2>
+        <img src="https://images.pexels.com/photos/340140/pexels-photo-340140.jpeg" alt="Kenyan Landscape" width="600">
+    </section>
+
+    <!-- Table of 5 Kenyan Student Contacts -->
+    <section>
+        <h2>Student Contact List</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>County</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Brian Otieno</td>
+                    <td>Kisumu</td>
+                    <td>0712-345-678</td>
+                    <td>brian.o@studentmail.com</td>
+                </tr>
+                <tr>
+                    <td>Faith Wanjiru</td>
+                    <td>Kiambu</td>
+                    <td>0741-234-567</td>
+                    <td>faith.w@studentmail.com</td>
+                </tr>
+                <tr>
+                    <td>Kevin Kiprono</td>
+                    <td>Eldoret</td>
+                    <td>0791-876-543</td>
+                    <td>kiprono.kevin@studentmail.com</td>
+                </tr>
+                <tr>
+                    <td>Mercy Achieng</td>
+                    <td>Siaya</td>
+                    <td>0700-321-987</td>
+                    <td>mercy.a@studentmail.com</td>
+                </tr>
+                <tr>
+                    <td>Ali Hussein</td>
+                    <td>Garissa</td>
+                    <td>0723-654-321</td>
+                    <td>ali.hussein@studentmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Registration Form -->
+    <section>
+        <h2>Registration Form</h2>
+        <form action="#" method="post" id="registration-form">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="e.g. Amina Njeri" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="e.g. amina@studentmail.com" required><br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Create a strong password" required><br><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required><br><br>
+
+            <label for="county">County:</label>
+            <select id="county" name="county" required>
+                <option value="">Select your county</option>
+                <option value="Nairobi">Nairobi</option>
+                <option value="Mombasa">Mombasa</option>
+                <option value="Kisumu">Kisumu</option>
+                <option value="Nakuru">Nakuru</option>
+                <option value="Uasin Gishu">Uasin Gishu</option>
+            </select><br><br>
+
+            <fieldset>
+                <legend>Gender:</legend>
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="female">Female</label>
+                <input type="radio" id="female" name="gender" value="female" required>
+                <label for="other">Other</label>
+                <input type="radio" id="other" name="gender" value="other" required>
+            </fieldset><br><br>
+
+            <label for="newsletter">Receive student updates:</label>
+            <input type="checkbox" id="newsletter" name="newsletter"><br><br>
+
+            <button type="submit">Register</button>
+        </form>
+    </section>
+
+    <!-- Multimedia Section (Audio and Video) -->
+    <section>
+        <h2>Multimedia</h2>
+        <h3>Audio Example</h3>
+        <audio controls>
+            <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio><br><br>
+
+        <h3>Video Example</h3>
+        <video width="600" controls>
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            Your browser does not support the video element.
+        </video>
+    </section>
+
+</body>
+</html>
